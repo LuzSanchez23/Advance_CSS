@@ -4,10 +4,13 @@
     width: 100%;
     text-align: center;
     font-size: 25px;
+    border: dotted 4px white;
 }
 .link {
     cursor: grabbing;
     color: white;
+    display: inline;
+    padding-right: 30px;
 }
 .sun {
     border-radius: 50%;
@@ -23,22 +26,23 @@
     height: 250px;
 }
 .grass {
-    height: 200px;
+    height: 400px;
     width: 100%;
     background-color: green;
 }
 .road {
     width: 100%;
     background-color: slategray;
-    height: 260px;
+    height: 300px;
 }
 .lines {
     border: 7px dashed white;
-    height: 0px;
+    height: 10px;
     width: 100%;
     position: absolute;
     top: 82%;
 }
 img {
-    size: 15in;
+    width: 250px;
+    height: 100px;
 }

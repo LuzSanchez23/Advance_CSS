@@ -4,10 +4,13 @@
     width: 100%;
     text-align: center;
     font-size: 25px;
+    border: dotted 4px white;
 }
 .link {
     cursor: grabbing;
     color: white;
+    display: inline;
+    padding-right: 30px;
 }
 h1 {
     text-align: center;
@@ -17,6 +20,8 @@ h1 {
 .container {
     text-align: center;
     font-style: oblique;
+    background-color: hotpink;
+    width: 100%;
 }
 .hover, .rotate, .translateX, .translateY, .threeD, .skew, .scale {
     width: 100px;
@@ -80,6 +85,3 @@ h1 {
 }
 
 
-.container {
-    background-color: hotpink;
-}
