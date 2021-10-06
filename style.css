@@ -1,10 +1,24 @@
-* {
-    width: 110px;
-    line-height: 0;
-    padding: 50px 0;
-    margin: 60px auto;
-    background-color: turquoise;
-    color: gray;
-    border-radius: 50%;
-    cursor: cell;
+.topbar {
+    background-color: teal;
+    height: 43px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.link {
+    cursor: grabbing;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.container img {
+    width: 200px;
+    height: 160px;
+    border: pink 5px groove;
 }

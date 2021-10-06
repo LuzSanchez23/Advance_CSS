@@ -1,0 +1,85 @@
+.topbar {
+    background-color: teal;
+    height: 43px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.link {
+    cursor: grabbing;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: hotpink;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container {
+    text-align: center;
+    font-style: oblique;
+}
+.hover, .rotate, .translateX, .translateY, .threeD, .skew, .scale {
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: turquoise;
+    color: black;
+    border-radius: 50%;
+    cursor: cell;
+    /*properities you want to transition */
+    transition-property: background-color, font-size, transform;
+    /*how long you want the element to transition frequency */
+    transition-duration: 2s;
+    /*how long until the transition begins - cuando empieza */
+    transition-delay: 2s;
+    /*how you want elements to transition ease, ease in ease out */
+    transition-timing-function: ease-out;
+}
+
+/*measured in deg */
+.hover:hover {
+    color: indigo;
+    background-color: yellow;
+}
+/*measured in deg */
+.rotate:hover {
+    color: indigo;
+    background-color: yellow;
+    transform: rotate(360deg);
+}
+/*measured in deg */
+.skew:hover {
+    color: indigo;
+    background-color: yellow;
+    transform: skew(20deg);
+}
+/*measured in px*/
+.translateX:hover {
+    color: indigo;
+    background-color: yellow;
+    transform: translateX(30px);
+}
+/*measured in px*/
+.translateY:hover {
+    color: indigo;
+    background-color: yellow;
+    transform: translateY(50px);
+}
+/*measured with an integar or %*/
+.scale:hover {
+    color: indigo;
+    background-color: yellow;
+    transform: scale(50%);
+}
+/*measured with an inregars x y z axis and deg*/
+.threeD:hover {
+    color: indigo;
+    background-color: yellow;
+    transform: rotate3d(1, 1, 1, 360deg);
+}
+
+
+.container {
+    background-color: hotpink;
+}
