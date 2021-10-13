@@ -1,0 +1,72 @@
+.topbar {
+    background-color: teal;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    border: dotted 4px white;
+}
+.link {
+    cursor: grabbing;
+    color: white;
+    display: inline;
+    padding-right: 30px;
+}
+*cursor {
+    cursor: pointer;
+}
+.section1 h1 {
+    color: green;
+}
+h1 {
+    color: red;
+}
+p{
+    font-size: 25px;
+}
+.section2 h1 {
+    color: blue;
+}
+.section2 + p {
+    font-size: 20px;
+}
+.section2 ul li {
+    color: pink;
+    font-size: 20px;
+    list-style-type: none;
+    transition-property: all;
+    transition-duration: 4s;
+}
+.section2 ul li:hover {
+    color: black;
+    transform: translateX(40px);
+}
+.section3 h1 {
+    color: purple;
+}
+.section3 p {
+    font-style: italic;
+}
+.section3 ul li {
+    color: yellow;
+    list-style-type: square;
+    font-size: 25px;
+    transition-property: all;
+    transition-duration: 5s;
+}
+.section3 ul li:hover {
+    color: aqua;
+    transform:translateY(40px);
+}
+.section2 ul .Spanish:hover {
+    color: darkolivegreen;
+    transform: translateX(-40px);
+}
+p::first-letter {
+    color: darkorange;
+    font-size: 50px;
+}
+p::selection {
+    color: red;
+    background-color: yellow;
+}
