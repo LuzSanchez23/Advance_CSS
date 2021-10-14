@@ -1,10 +1,11 @@
 .topbar {
     background-color: teal;
-    height: 43px;
+    height: 50px;
     width: 100%;
     text-align: center;
     font-size: 25px;
     border: dotted 4px white;
+    
 }
 .link {
     cursor: grabbing;
@@ -12,40 +13,7 @@
     display: inline;
     padding-right: 30px;
 }
-.sun {
-    border-radius: 50%;
-    width: 100px;
-    background-color: yellow;
-    line-height: 0;
-    padding: 50px 0;
-    margin-left: 5px;
-}
-.sky {
-    background-color: skyblue;
-    width: 100%;
-    height: 250px;
-}
-.grass {
-    height: 400px;
-    width: 100%;
-    background-color: green;
-}
-.road {
-    width: 100%;
-    background-color: slategray;
-    height: 300px;
-}
-.lines {
-    border: 7px dashed white;
-    height: 10px;
-    width: 100%;
-    position: absolute;
-    top: 82%;
-}
-img {
-    width: 250px;
-    height: 100px;
-}
+
 .dropbtn {
     background-color:pink;
     color: white;
